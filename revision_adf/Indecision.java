@@ -18,7 +18,7 @@ import org.tweetyproject.logics.pl.syntax.Tautology;
  * This class models an indecision operator for 3-valued propositional logic as proposed in [Heyninck 2020]
  * Indecision(a) is true, if formula a is undecided
  * Indecision(a) is false, if formula a is true or false
- * This is an adaptation of the class Negation
+ * Adapted from the class "Negation"
  * 
  * @author Jonas Schumacher
  */

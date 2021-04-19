@@ -20,12 +20,12 @@ import org.tweetyproject.logics.pl.syntax.PlSignature;
 import org.tweetyproject.logics.pl.syntax.Tautology;
 
 /**
- * A three-valued interpretation for propositional logic from
+ * This class models a three-valued interpretation for propositional logic from
  * Priest's three valued logic (3VL) [Priest, G.: Logic of paradox. Journal of Philosophical Logic 8, 219-241 (1979)].
  * 
- * Every proposition gets one of three truth values: true, false, both.
+ * Every proposition is assigned one of three truth values: true, false, both.
  * 
- * Taken from PriestWorld and adapted for the use of a wider range of operators
+ * Adapted from class "PriestWorld" for the use of a wider range of operators
  * 
  * @author Jonas Schumacher
  */

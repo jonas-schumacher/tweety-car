@@ -11,7 +11,7 @@ import org.tweetyproject.logics.pl.syntax.*;
  * A ranking function (or ordinal conditional function, OCF) that maps possible worlds
  * of a propositional language to integers. 
  * 
- * Taken from "RankingFunction" and adapted for the use of Three Valued Logic
+ * Adapted from class "RankingFunction" for the use of Three Valued Logic
  * 
  * @author Jonas Schumacher
  *

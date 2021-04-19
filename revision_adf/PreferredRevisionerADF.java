@@ -22,7 +22,7 @@ import org.tweetyproject.logics.pl.syntax.PlSignature;
 import org.tweetyproject.logics.pl.syntax.Proposition;
 
 /**
- * 
+ * This class implements a revision operator for Abstract Dialectical Frameworks (ADFs)
  * @author Jonas Schumacher
  *
  */

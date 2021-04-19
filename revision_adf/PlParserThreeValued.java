@@ -1,21 +1,3 @@
-/*
- *  This file is part of "TweetyProject", a collection of Java libraries for
- *  logical aspects of artificial intelligence and knowledge representation.
- *
- *  TweetyProject is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU Lesser General Public License version 3 as
- *  published by the Free Software Foundation.
- *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU Lesser General Public License for more details.
- *
- *  You should have received a copy of the GNU Lesser General Public License
- *  along with this program. If not, see <http://www.gnu.org/licenses/>.
- *
- *  Copyright 2021 The TweetyProject Team <http://tweetyproject.org/contact/>
- */
 package revision_adf;
 
 import java.io.*;
@@ -26,6 +8,12 @@ import org.tweetyproject.logics.commons.LogicalSymbols;
 import org.tweetyproject.logics.pl.syntax.*;
 
 /**
+ * 
+ * Adapted from "PlParser" for the use of 3-valued logic (WeakNegation and Indecision-Operator):
+ * @author Jonas Schumacher
+ * 
+ * ORIGINAL DOCUMENTATION:
+ * 
  * This class implements a parser for propositional logic. The BNF for a
  * propositional belief set is given by (starting symbol is FORMULASET) <br>
  * <br>
@@ -40,9 +28,6 @@ import org.tweetyproject.logics.pl.syntax.*;
  * @author Matthias Thimm
  * @author Bastian Wolf
  * 
- * Adapted for the use of 3-valued logic (WeakNegation and Indecision-Operator):
- * 
- * @author Jonas Schumacher
  */
 public class PlParserThreeValued extends Parser<PlBeliefSet, PlFormula> {
 

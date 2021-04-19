@@ -21,9 +21,14 @@ import org.tweetyproject.arg.adf.reasoner.PreferredReasoner;
 import org.tweetyproject.arg.adf.reasoner.StableReasoner;
 import org.tweetyproject.arg.adf.sat.solver.NativeMinisatSolver;
 
+/**
+ * This class compares the inference behavior of Abstract Dialectical Frameworks (AFDs) and Ranking Functions (OCFs)
+ * @author Jonas Schumacher
+ *
+ */
 public class CompareInference {
 	/**
-	 * Compares the inference behavior of an ADF with that of an OCF induced by translation function Theta
+	 * Compare inference behavior of an ADF with that of an OCF induced by translation function Theta
 	 * @param args
 	 * @throws FileNotFoundException
 	 * @throws ParserException

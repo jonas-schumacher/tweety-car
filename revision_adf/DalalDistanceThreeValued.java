@@ -8,7 +8,7 @@ import org.tweetyproject.logics.pl.syntax.PlSignature;
 /**
  * Implementation of Symmetric Distance Function "Delta" as proposed in [Heyninck 2020]
  * 
- * Taken from "DalalDistance" and adapted for the use of Three Valued Logic
+ * Adapted from class "DalalDistance" for the use of Three Valued Logic
  * 
  * @author Jonas Schumacher
  *

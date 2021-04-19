@@ -19,9 +19,9 @@ import org.tweetyproject.logics.pl.syntax.PlSignature;
 
 
 /**
- * Iterates effectively over all interpretation sets worlds of a given signature.
+ * This class iterates effectively over all interpretation sets worlds of a given signature.
  * 
- * Taken from "PossibleWorldIterator" and adapted for the use of Three Valued Logic
+ * Adapted from class "PossibleWorldIterator" for the use of Three Valued Logic
  * 
  * @author Jonas Schumacher
  *

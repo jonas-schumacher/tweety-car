@@ -17,7 +17,7 @@ import org.tweetyproject.logics.pl.syntax.Tautology;
 /**
  * This class models a weak negation for 3-valued propositional logic as proposed in [Heyninck 2020]
  * 
- * This is an adaptation of the class Negation
+ * Adapted from the class "Negation"
  * 
  * @author Jonas Schumacher
  */

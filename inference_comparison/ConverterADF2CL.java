@@ -30,13 +30,12 @@ import org.tweetyproject.arg.adf.syntax.adf.AbstractDialecticalFramework;
 import org.tweetyproject.arg.adf.semantics.interpretation.Interpretation;
 import org.tweetyproject.arg.adf.reasoner.AbstractDialecticalFrameworkReasoner;
 
+/**
+ * This class bridges the gap between Abstract Dialectical Frameworks (ADFs) and Conditional Logic (CL)
+ * @author Jonas Schumacher
+ *
+ */
 public class ConverterADF2CL {
-	/**
-	 * Default Constructor
-	 */
-	public ConverterADF2CL() {
-		
-	}
 	
 	/**
 	 * Translate "Acceptance Condition" into "PlFormula" 
